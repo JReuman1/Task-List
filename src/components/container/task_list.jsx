@@ -8,6 +8,10 @@ const TaskListComponent = () => {
 
     const defaultTask = new Task('Example', 'Default description', false, LEVELS.NORMAL);
 
+    const changeState = (id) => {
+        console.log('To do : Cambiar estado d euna tarea')
+    }
+
     return (
         <div>
             <div>
